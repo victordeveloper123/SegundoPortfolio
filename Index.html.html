@@ -11,103 +11,104 @@
     <title>V.L.</title>
 </head>
 <body>
-    <!---Cabeçalho-Main-->
-
-    <div class="background">
+    <!---navbar inicio--->
+    <div class="background" id="home">
         <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2><!--Logo-->
+            <h2 class="logo">Portfo<span>lio</span></h2>
             <ul class="cabeçalho-link">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul><!--cabeçalho-link-->
-            <a href="#" class="btn">Subscribe</a>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <a href="https://github.com/victordeveloper123?tab=repositories" class="btn">GitHub</a>
         </nav>
+    <!---navbar fim--->
 
-        <div class="Main">
+    <!--Cabeçalho inicio-->
+        <div class="Main" >
             <h4>Ola, meu nome é</h4>
             <h1>Victor <span>Lima</span></h1>
             <h3>Eu sou um desenvolvedor web</h3>
             <div class="Container-btn">
                 <form>
                     <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
-                    <input type="submit" name="submit" value="Começar">
+                    <input type="submit" name="submit" value="Enviar">
                 </form>
-            </div><!--Container-btn-->
-        </div><!--Main-->
-    </div><!--background-->
+            </div>
+        </div>
+    </div>
+    <!--Cabeçalho Fim-->
 
-
-    <!--Começo-da-seção-sobre-->
-
-    <section class="background-color-Sobre">
+    <!--sobre mim inicio-->
+    <section class="background-color-Sobre" id="about">
         <div class="main-sobre">
             <img src="foto1.png">
             <div class="Text-sobre">
                 <h2>Sobre-Mim</h2>
                 <h5>Desenvolvedor <span>& designer</span></h5>
-                <p>Eu sou um Desenvolvedor web front-end. Eu posso fornecer codigos limpos e imagem de desing perfeito. E também fazer o website mais & mais interativo e com animação web. E posso Deixar seu site responsivo, e que ele acesse todos os usuarios, independente dos seus aparelhos dispositivos.</p>
-                <button type="button">Vamos conversa</button><!--Button-->
-            </div><!--Text-sobre-->
-        </div><!--main-sobre-->
-    </section><!--background-color-Sobre-->
+                <p>Sou um jovem de 19 anos que ama aplicar seus conhecimentos para solucionar problemas, aprender novas tecnologias e agregar valor ao time de desenvolvimento.Com conhecimentos adquiridos 
+                    através do curso técnico de informática do Senac e através de conteúdos da internet, me tornei um densenvolvedor web front-end. Posso fornecer códigos limpos, criar websites interativos,
+                    resposivos,etc.</p>
+                <a href="CV.pdf" class="btn">Meu Currículo</a>
+            </div>
+        </div>
+    </section>
+    <!--sobre mim fim-->
 
-    <!--Começo-da-seção-nossos-serviços-->
-
-    <div class="Container-serviços">
+    <!--Nossos serviços inicio-->
+    <div class="Container-serviços" id="services">
         <div class="title">
-            <h2>Nossos Serviços</h2>
-        </div><!--title-->
-
+            <h2>O que eu faço</h2>
+        </div>
         <div class="Caixa">
             <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Desenvolvedor web</h5>
+                <i class="fas fa-code"></i>
+                <h5>Design Web</h5>
                 <div class="Paragrafo-button">
-                    <p>Muitos sites devem ser contruido com dois principais objetivos: Primeiramente , ele precisar funcionar em todos os dispositivos. Segundo, Ele precisar ser o mais rapido possivel </p>
-                    <button type="button">Ler Mais</button><!--button-->
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
+                    <p>Construção de sites, aplicativos e softwares voltados ao serviço do usuário, sendo pelo Front ou Back-End.</p>
+                </div>
+            </div><!--fim card1-->
 
             <div class="Card">
-                <i class="fas fa-user"></i>
-                <h5>Desenvolvedor web</h5>
+                <i class="fas fa-mobile-alt"></i>
+                <h5>Design Responsivo</h5>
                 <div class="Paragrafo-button">
-                    <p>Desenvolvemos Sites Profissionais e Otimizado Para Dispositivos Móveis. Crie Seu Site Hoje. </p>
-                    <button type="button">Ler Mais</button><!--button-->
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
+                    <p>Design responsivos ao comportamento e ambiente do usuário com base no tamanho da tela, plataforma e orientação. </p>
+                </div>
+            </div><!-- fim Card2-->
 
             <div class="Card">
-                <i class="fas fa-bell"></i>
-                <h5>Desenvolvedor web</h5>
+                <i class="fas fa-check"></i>
+                <h5>Clean Code</h5>
                 <div class="Paragrafo-button">
-                    <p>Muitos sites devem ser contruido com dois principais objetivos: Primeiramente , ele precisar funcionar em todos os dispositivos. Segundo, Ele precisar ser o mais rapido possivel </p>
-                    <button type="button">Ler Mais</button><!--button-->
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-        </div><!--Caixa-->
-    </div><!--Conatiner-serviços-->
+                    <p>Programação utilizando código limpo, compreensível e mantenedor para facíl compreensão.</p>
+                </div>
+            </div><!-- fim Card3-->
+        </div>
+    </div>
+    <!--nossos serviços fim-->
     
-    <!--Contatos-->
-    <div class="me-contate">
-        <p>Contate minha equipe para a gente criar um bonito site para você</p>
-        <button type="button">Enviar mensagem</button><!--button-->
-    </div><!--me-contate-->
+    <!--Contatos inicio-->
+    <div class="me-contate" id="contact">
+        <h4>Precisa de um site ?</h4>
+        <p>Estou disponível para projetos freelancer!!</p>
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55 &text=Olá, Victor! Cheguei aqui pelo seu portfolio e gostaria de solicitar um orçamento para um site!" class="btn btn-outline-light">Envie uma Mensagem Via Whatsapp!</a>
+    </div>
+    <!--contatos fim-->
 
-    <!--Rodapé--->
+    <!--Rodapé inicio--->
     <footer>
-          <h6>Victor Lima</h6>
-        <p>Para mais HTML E CSS, tutorias - por favor clique no link abaixo para se inscrever no meu canal</p>
+          <h6>Victor Lima da Silveira</h6>
+        <p>Para mais informações, clique em um dos ícones abaixo,obrigado!</p>
         <div class="Redes-sociais">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/vt_lima22/?next=%2F"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-dribbble"></i></a>
-        </div><!--Redes-sociais-->
+            <a href="https://github.com/victordeveloper123"><i class="fab fa-github"></i></a>
+        </div>
         <p class="end">CopyRight By Victor Lima</p>
     </footer>
+    <!--rodape fim-->
 
     
 </body>
